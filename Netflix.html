@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix.com</title>
+    <link href="Netflix.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="screen">
+      <img
+        id="blackimg"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUs55nkjiEFR-2RL9nfedkXcYZCAcWNlfLpg&s"
+        alt="blacj-gradient-background"
+      />
+      <div class="popup-overlay"></div>
+      <div class="popup-box">
+        <h2 id="heading">Sign in</h2>
+        <form id="userform">
+          <input type="text" placeholder="Email or Mobile Number" id="Email" />
+          <input type="text" placeholder="Password" id="password" />
+          <p
+            id="error-msg"
+            style="
+              color: rgb(11, 11, 11);
+              font-size: 14px;
+              margin-top: 10px;
+              margin-left: 5px;
+            "
+          ></p>
+          <button id="update">Sign in</button>
+        </form>
+      </div>
+      <nav class="navbar">
+        <img id="logo" src="logo.svg" alt="Netflix logo" />
+        <select name="language" class="language" placeholder="language">
+          <option>Language</option>
+          <option>தமிழ்</option>
+          <option>English</option>
+          <option>हिन्दी</option>
+        </select>
+        <button class="signin">Sign in</button>
+      </nav>
+      <div class="backgroundimg"><img src="bgimg.jpg" alt="moviesimg" /></div>
+      <div class="offer">
+        <h1 id="h11">Endless Entertainment Starts here</h1>
+        <h1 id="h12">Plans from ₹149.</h1>
+        <p id="p1">cancel or switch plans at anytime.</p>
+      </div>
+      <div class="movies">
+        <table>
+          <tr>
+            <td>
+              <div class="movie1">
+                <img
+                  class="vijay"
+                  src="https://m.media-amazon.com/images/M/MV5BNjk2NGQwNmYtMDViZS00NjE5LWI4MzMtZWJjZmIwNmI5ODk2XkEyXkFqcGc@._V1_.jpg"
+                  id="poster"
+                />
+                <div class="name"><h1 class="movie1name">Mersal</h1></div>
+              </div>
+            </td>
+            <td>
+              <div class="movie1">
+                <img
+                  class="vijay"
+                  src="https://preview.redd.it/first-look-posters-of-vijay-movies-since-2012-v0-mwi2kysv7i7b1.jpg?width=640&crop=smart&auto=webp&s=87cc3867a29f26e4d8749fe9aa39d866a57ed765"
+                  id="poster"
+                />
+                <div class="name"><h1 class="movie1name">Varisu</h1></div>
+              </div>
+            </td>
+            <td>
+              <div class="movie1">
+                <img
+                  class="vijay"
+                  src="https://i.redd.it/first-look-posters-of-vijay-movies-since-2012-v0-uyr29juv7i7b1.jpg?width=1200&format=pjpg&auto=webp&s=b76ba4376a3179bcd65afcf933d7f7efea20f23d"
+                  id="poster"
+                />
+                <div class="name"><h1 class="movie1name">Master</h1></div>
+              </div>
+            </td>
+            <td>
+              <div class="movie1">
+                <img
+                  class="vijay"
+                  src="https://qqcdnpictest.mxplay.com/pic/d6dded1f2c40e14a09c433784ab885bc/en/2x3/312x468/b4532ae7cdafb377d50d1833abeab44a_1280x1920.webp"
+                  id="poster"
+                />
+                <div class="name"><h1 class="movie1name">Puli</h1></div>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <div class="userinput">
+          <input class="email" type="email" placeholder="Enter email Here..." />
+          <button type="submit" class="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+    <script src="Netflix.js"></script>
+  </body>
+</html>
